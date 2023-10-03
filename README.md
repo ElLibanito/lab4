@@ -62,3 +62,7 @@ From the root directory of the project, run:
 ```
 npm test
 ```
+
+## TEST
+
+TEST ENTRAINEMENT PUSH + MERGE
