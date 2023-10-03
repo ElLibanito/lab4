@@ -36,11 +36,10 @@ describe('User', () => {
       })
     })
 
-    it('avoid creating an existing user', (done)=> {
+    it('Only give username', (done)=> {
       const user = {
         username: 'sergkudinov',
-        firstname: 'Sergei',
-        lastname: 'Kudinov'
+        
       }
       // Create a user
       userController.create(user, () => {
